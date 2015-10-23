@@ -29,6 +29,14 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
+    /**
+     * Este constructor pide precio de ticket.
+     */
+    public TicketMachine(int cost)
+    {
+        price = cost;
+    }
 
     /**
      * Return the price of a ticket.
