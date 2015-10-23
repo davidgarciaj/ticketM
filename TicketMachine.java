@@ -93,13 +93,13 @@ public class TicketMachine
      */
     public void prompt()
     {
-        system.out.println("Please, insert the correct amount of money");
+        System.out.println("Please, insert the correct amount of money");
     }
     /**
      * Imforma del precio del billete.
      */
     public void showPrice()
     {
-         system.out.println("The price of a ticket is " + price + " cents.")
+         System.out.println("The price of a ticket is " + price + " cents.");
     }
 }
