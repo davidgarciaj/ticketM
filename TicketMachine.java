@@ -75,10 +75,14 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
     public int getTotal()
     {
         return total;
     }
+    /**
+     * Give a diferent price for tickets.
+     */
     public void setPrice(int cost)
     {
         price= cost;
