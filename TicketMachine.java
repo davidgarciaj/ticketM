@@ -79,4 +79,8 @@ public class TicketMachine
     {
         return total;
     }
+    public void setPrice(int cost)
+    {
+        price= cost;
+    }
 }
