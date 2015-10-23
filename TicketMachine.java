@@ -28,7 +28,7 @@ public class TicketMachine
         price = 800;
         balance = 0;
         total = 0;
-    }
+    } 
     
     /**
      * Este constructor pide precio de ticket.
